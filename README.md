@@ -1,7 +1,7 @@
 # 会員
 
 |名前|method|url|
-|:-:|:--|:-:|
+|:-:|:--|:--|
 |登録|POST|/users|
 |取得|GET|/users/:user_id|
 |編集|PUT|/users/:user_id|
@@ -16,14 +16,14 @@
 # ログイン
 
 |名前|method|url|
-|:-:|:--|:-:|
+|:-:|:--|:--|
 |ログイン|POST|/login|
 
 
 # 映画情報
 
 |名前|method|url|
-|:-:|:--|:-:|
+|:-:|:--|:--|
 |登録|POST|/film_info|
 |一覧取得|GET|/film_info|
 |特定の情報取得|GET|/film_info/:film_id|
@@ -43,7 +43,7 @@
 # 映画予約
 
 |名前|method|url|
-|:-:|:--|:-:|
+|:-:|:--|:--|
 |予約する|POST|/film_reserve|
 |変更|PUT|/film_reserve/:reserve_id|
 |削除|DELETE|/film_reserve/:reserve_id|
@@ -57,13 +57,13 @@
 # 履歴閲覧
 
 |名前|method|url|
-|:-:|:--|:-:|
+|:-:|:--|:--|
 |予約閲覧|GET|/reserve_history|
 
 # チェックイン
 
 |名前|method|url|
-|:-:|:--|:-:|
+|:-:|:--|:--|
 |チェックインする|POST|/checkin|
 
 ## チェックイン
